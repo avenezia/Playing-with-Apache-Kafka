@@ -1,2 +1,3 @@
 ./kafka-topics.sh --create --replication-factor 3 --zookeeper u1401.ambari.apache.org:2181,u1402.ambari.apache.org:2181,u1403.ambari.apache.org:2181 --partition 10 --topic test
 ./kafka-topics.sh --describe --zookeeper u1401.ambari.apache.org:2181,u1402.ambari.apache.org:2181,u1403.ambari.apache.org:2181 --topic test
+./kafka-consumer-groups.sh --list --zookeeper u1401.ambari.apache.org:2181,u1402.ambari.apache.org:2181,u1403.ambari.apache.org:2181
